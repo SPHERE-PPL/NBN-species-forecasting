@@ -62,7 +62,7 @@ Contest participants are required to develop a modelling algorithm to forecast s
 | `Vipera_berus`              | South East |
 
 
-2 prizes will be given for the best and second best model at forecasting probability of species occurrence in a given target region for 2026. Please calculate and report the binomial deviance for each of the nine species individually, as well as the mean binomial deviance across all nine species. Binomial defiance should be calculated across the 5km grid cells for a given species. Treat each species equally when calculating the aggregate statistics.
+2 prizes will be given for the best and second best model at forecasting probability of species occurrence in a given target region for 2026. Please calculate and report the binomial deviance for each of the nine species individually, as well as the mean binomial deviance across all nine species. Binomial deviance should be calculated across the 5km grid cells for a given species. Treat each species equally when calculating the aggregate statistics.
 
 The winners will be selected by the SPHERE-PPL Team and will be invited to present their forecasts at the next Annual Meeting. The SPHERE-PPL Team reserve the right to award a prize for a model that performs particularly well for one species. 
 
