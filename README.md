@@ -24,6 +24,8 @@ Participants are encouraged to source and include additional relevant predictor 
 
 [Soil data](https://isric.org/explore/soilgrids)
 
+Species occurrence data and the provided environmental predictors have been harmonised to a 5 km grid.
+
 
 ## Joining the contest & Getting Started
 
@@ -45,7 +47,7 @@ To download the data without a github account, click the code box dropdown and d
 
 ## How to Win!
 
-Contest participants are required to develop a modelling algorithm to forecast species occurrence within a target UK region in 2026 for 9 species. Species target regions are summarised in a table below. An example modelling pipeline is provided in the repository to guide development. Please also refer to the SPHERE-PPL PGLMM workshop as an example modelling approach (https://github.com/willpearse/stancon-2024-pglmm). An example report and submission template has also been provided. 
+Contest participants are required to develop a modelling algorithm to forecast species occurrence within a target UK region in 2026 for 9 species. Species target regions are summarised in a table below. An example modelling pipeline is provided in the repository to guide development. An example report and submission template has also been provided. 
 
 | Species                     | Region     |
 | --------------------------- | ---------- |
@@ -60,13 +62,13 @@ Contest participants are required to develop a modelling algorithm to forecast s
 | `Vipera_berus`              | South East |
 
 
-2 prizes will be given for the best and second best model at forecasting probability of species occurrence in a given target region for 2026. Please calculate and report the binomial deviance for each of the nine species individually, as well as the mean binomial deviance across all nine species. Treat each species equally when calculating the aggregate statistics.
+2 prizes will be given for the best and second best model at forecasting probability of species occurrence in a given target region for 2026. Please calculate and report the binomial deviance for each of the nine species individually, as well as the mean binomial deviance across all nine species. Binomial deviance should be calculated across the 5km grid cells for a given species. Treat each species equally when calculating the aggregate statistics.
 
 The winners will be selected by the SPHERE-PPL Team and will be invited to present their forecasts at the next Annual Meeting. The SPHERE-PPL Team reserve the right to award a prize for a model that performs particularly well for one species. 
 
 ## How to Submit
 
-If you forked the repo, congratulations, you have almost entered the contest! Make sure to update your repo with your results! Forecasts and reports should be saved into the submission folder, matching the template found within. We will run the [Forecast AggregatoR](https://github.com/SPHERE-PPL/Forecast-AggregatoR) the day following the close of the contest and your repo will be collated with the entries.
+If you forked the repo, congratulations, you have almost entered the contest! Make sure to update your repo with your results! Forecasts and reports should be saved into the submission folder, matching the template found within. 
 
 If you did not fork the repo, please send an email to [info\@sphere-ppl.org](mailto:info@sphere-ppl.org) with a link to your public github repo where your forecast and report are stored. These will then be collated with the other entries.
 
